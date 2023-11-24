@@ -24,6 +24,23 @@ const items = [
   { name: "snake", image: "res/Static/GuessImage/10.jpg" },
   { name: "hamster", image: "res/Static/GuessImage/11.jpg" },
 ];
+//Toastify
+toastNotif=()=>{
+  Toastify({
+    text: "Yay!",
+    duration: 3000,
+    destination: "https://github.com/apvarun/toastify-js",
+    newWindow: true,
+    close: true,
+    gravity: "top", // `top` or `bottom`
+    position: "left", // `left`, `center` or `right`
+    stopOnFocus: true, // Prevents dismissing of toast on hover
+    style: {
+      background: "linear-gradient(to right, #00b09b, #96c93d)",
+    },
+    onClick: function(){} // Callback after click
+  }).showToast();
+}
 
 //Initial Time
 let seconds = 0,
@@ -114,6 +131,8 @@ const matrixGenerator = (cardValues, size = 4) => {
           secondCard = card;
           let secondCardValue = card.getAttribute("data-card-value");
           if (firstCardValue == secondCardValue) {
+            this.toastNotif();
+            
             //if both cards match add matched class so these cards would beignored next time
             firstCard.classList.add("matched");
             secondCard.classList.add("matched");
