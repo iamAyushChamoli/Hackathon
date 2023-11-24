@@ -79,7 +79,7 @@ ul li a{
     backdrop-filter:blur(2px);
     transition:0.5s;
     overflow:hidden;
-    background-image: url('res/Static/Images/game1.png');
+    background-image: url("res/Static/Images/game1.png");
 }
  ul li a:hover{
     transform: translateY(-20px);
