@@ -104,6 +104,8 @@ transition:0.5s;
  }
  #dataLink{
     background-color: #fff;
-    align-items: center;
+    align-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 300px;
+    height: 90px;
  }
