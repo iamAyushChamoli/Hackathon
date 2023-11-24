@@ -30,9 +30,9 @@ function makeBubble() {
                   <img src="${fruit.image}" alt="${fruit.name}">
                 </div>`;
   }
-  for (var i = 0; i <fruitData.length; i++) {
+  for (var i = 0; i<fruitData.length; i++) {
     var fruit = fruitData[i];
-    clutter += `<div class="bubble" data-fruit-index="${rn}">
+    clutter += `<div class="bubble" data-fruit-index="${i}">
                   <img src="${fruit.image}" alt="${fruit.name}">
                 </div>`;
   }
