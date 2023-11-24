@@ -64,7 +64,6 @@ ul li a{
     position:relative;
     width:300px;
     height:350px;
-    display:inline-block;
     border-radius:10px;
     display:flex;
     justify-content:center;
@@ -79,7 +78,11 @@ ul li a{
     backdrop-filter:blur(2px);
     transition:0.5s;
     overflow:hidden;
-    background: url("res/Static/Images/game1.png");
+}
+ul li a img{
+    height: 90%;
+    width: 90%;
+    padding-right: 2rem;
 }
  ul li a:hover{
     transform: translateY(-20px);
