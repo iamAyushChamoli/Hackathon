@@ -23,14 +23,19 @@ function findClosestBubble(element) {
 function makeBubble() {
      var clutter = "";
 
-  for (var i = 1; i <= 24; i++) {
+  for (var i = 1; i <= (24-fruitData.length); i++) {
     var rn = Math.floor(Math.random() * fruitData.length);
     var fruit = fruitData[rn];
     clutter += `<div class="bubble" data-fruit-index="${rn}">
                   <img src="${fruit.image}" alt="${fruit.name}">
                 </div>`;
   }
-
+  for (var i = 0; i <fruitData.length; i++) {
+    var fruit = fruitData[i];
+    clutter += `<div class="bubble" data-fruit-index="${rn}">
+                  <img src="${fruit.image}" alt="${fruit.name}">
+                </div>`;
+  }
   document.querySelector("#pbtm").innerHTML = clutter;
 }
 
