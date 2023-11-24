@@ -6,6 +6,7 @@
   }
   body {
 	background: url("https://images.template.net/108897/summer-cartoon-background-yyfby.jpg");
+	background-size: cover;
   }
   .wrapper {
 	box-sizing: content-box;
