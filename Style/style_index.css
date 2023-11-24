@@ -102,3 +102,8 @@ transition:0.5s;
  ul li a:hover::before{
     transform: skewX(45deg) translateX(-150px);
  }
+ #dataLink{
+    background-color: #fff;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
