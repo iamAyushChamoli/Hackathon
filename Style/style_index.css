@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+}
+section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom, #3dc849,#dff1ff);
+}
+section .color{
+    position: absolute;
+}
+section .color:nth-child(1){
+    background: #0fa71c;
+    width: 500px;
+    height: 500px;
+    bottom: -350px;
+}
