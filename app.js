@@ -2,13 +2,13 @@ var hitVal = 0;
 var timer = 60;
 var score = 0;
 var fruitData = [
-  { name: 'Apple', image: '/res/static/fruits/apple.jpg' },
-  { name: 'Banana', image: '/res/static/fruits/banana.png' },
-  { name: 'Orange', image: '/res/static/fruits/orange.jpg' },
-  { name: 'Berry', image: '/res/static/fruits/berry.jpg' },
-  { name: 'Star fruit', image: '/res/static/fruits/star-fruit.jpg' },
-  { name: 'Pineapple', image: '/res/static/fruits/pineapple.jpg' },
-  { name: 'Pomegranate', image: '/res/static/fruits/pomegranate.jpg' }
+  { name: 'Apple', image: '/res/Static/Fruits/apple.jpg' },
+  { name: 'Banana', image: '/res/Static/Fruits/banana.png' },
+  { name: 'Orange', image: '/res/Static/Fruits/orange.jpg' },
+  { name: 'Berry', image: '/res/Static/Fruits/berry.jpg' },
+  { name: 'Star fruit', image: '/res/Static/Fruits/star-fruit.jpg' },
+  { name: 'Pineapple', image: '/res/Static/Fruits/pineapple.jpg' },
+  { name: 'Pomegranate', image: '/res/Static/Fruits/pomegranate.jpg' }
 ];
 function findClosestBubble(element) {
   while (element) {
