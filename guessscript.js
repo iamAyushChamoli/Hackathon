@@ -29,6 +29,7 @@ toastNotif=()=>{
   Toastify({
     text: "Yay!",
     duration: 3000,
+    outerWidth:20,
     newWindow: true,
     gravity: "top", // `top` or `bottom`
     position: "right", // `left`, `center` or `right`
