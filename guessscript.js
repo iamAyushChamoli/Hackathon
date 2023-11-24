@@ -121,6 +121,8 @@ const matrixGenerator = (cardValues, size = 4) => {
         if (!firstCard) {
           //so current card will become firstCard
           firstCard = card;
+                      firstCard.classList.add("matched");
+
           //current cards value becomes firstCardValue
           firstCardValue = card.getAttribute("data-card-value");
         } else {
@@ -148,6 +150,8 @@ const matrixGenerator = (cardValues, size = 4) => {
           } else {
             //if the cards dont match
             //flip the cards back to normal
+                        firstCard.classList.remove("matched");
+
             let [tempFirst, tempSecond] = [firstCard, secondCard];
             firstCard = false;
             secondCard = false;
