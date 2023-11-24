@@ -6,6 +6,8 @@
   }
   body {
 	background: url("https://images.template.net/108897/summer-cartoon-background-yyfby.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
   }
   .wrapper {
 	box-sizing: content-box;
@@ -60,7 +62,8 @@
 	backface-visibility: hidden;
   }
   .card-before {
-	background-color: #f4c531;
+	background-color: #6fcdf8;
+	
 	font-size: 2.8em;
 	font-weight: 600;
   }
@@ -82,14 +85,22 @@
 	flex-direction: column;
 	width: 100%;
 	height: 100%;
-	background-color: #f4c531;
-	top: 0;
+background: url("https://images.template.net/108897/summer-cartoon-background-yyfby.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;	top: 0;
   }
-  button {
+  button#start {
 	border: none;
+	width: 15em;
 	border-radius: 0.3em;
+	      box-shadow: inset 0 0 0 0 #6fcdf8;
+transition: ease-out 0.3s;
 	padding: 1em 1.5em;
 	cursor: pointer;
+  }
+  #start:hover{
+      box-shadow: inset 15em 0 0 0 #6fcdf8;
+
   }
   #stop {
 	font-size: 1.1em;
