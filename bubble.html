@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Game</title>
+    <link rel="icon" type="image/x-icon" href="/res/Static/Images/Plant_Favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="panel">
+            <div id="ptop">
+                <div class="elem">
+                    <h2>Find</h2>
+                    <div id="hitval" class="box">5</div>
+                </div>
+                <div class="elem">
+                    <h2>Timer</h2>
+                    <div id="timerval" class="box">60</div>
+                </div>
+                <div class="elem">
+                    <h2>Score</h2>
+                    <div id="scoreval" class="box">0</div>
+                </div>
+            </div>
+            <div id="pbtm">
+            </div>
+        </div>
+    </div>
+    <audio id="gameOverSound">
+        <source src="sfx-defeat3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background: url("res/Static/Fruits/Fruit_BG2.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+#panel{
+    width: 80%;
+    height: 79%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#ptop {
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(145, 211, 145, 0.595);
+    justify-content: space-between;
+    backdrop-filter: blur(30px);    
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 15px;
+}
+
+.elem h2 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(64, 153, 175);
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#pbtm {
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+      }
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500;
+    
+}
+
+.bubble img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#game-over-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-over-container h1 {
+    font-size: 36px; 
+    color: black;
+    margin-bottom: 10px;
+}
+
+#playagain {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(18, 119, 57);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
