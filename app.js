@@ -23,7 +23,7 @@ function findClosestBubble(element) {
 function makeBubble() {
      var clutter = "";
 
-  for (var i = 1; i <= 27; i++) {
+  for (var i = 1; i <= 24; i++) {
     var rn = Math.floor(Math.random() * fruitData.length);
     var fruit = fruitData[rn];
     clutter += `<div class="bubble" data-fruit-index="${rn}">
